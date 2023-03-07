@@ -1,0 +1,67 @@
+body {
+  background-color: rgb(103, 103, 103);
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+form {
+  text-align: center;
+  justify-content: center;
+}
+.input {
+}
+.input,
+label {
+  margin-right: 20px;
+}
+
+.input,
+input {
+  width: 200px;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  margin-top: 90px;
+  gap: 20px;
+}
+
+.formulario {
+  padding: 40px 150px 40px 250px;
+  background-color: rgb(80, 80, 80);
+  border-radius: 15px;
+}
+.informacion {
+  text-align: center;
+  background-color: rgb(80, 80, 80);
+  padding: 40px 150px 40px 150px;
+  border-radius: 15px;
+}
+
+span {
+
+  background-color: rgb(128, 128, 128);;
+}
+
+.input {
+
+  margin-bottom: 20px;
+}
+
+ button {
+
+  height: 40px;
+  width:200px;
+  border: none;
+
+}
+
+.boton:hover {
+
+  width: 260;
+  transition: .3s;
+  padding: 10px;
+}
